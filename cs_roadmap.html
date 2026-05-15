@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha de Fundamentos — Ciência da Computação</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <p class="eyebrow">Guia de estudos · Ciência da Computação</p>
+      <h1>Trilha de <span>Fundamentos</span></h1>
+      <p class="subtitle">Uma referência progressiva de tópicos, livros, cursos e tecnologias cobradas no mercado — do
+        iniciante ao profissional.</p>
+      <nav class="toc">
+        <a class="toc-btn" href="./nav/algoritmos.html">01 · Algoritmos</a>
+        <a class="toc-btn" href="#logica">02 · Lógica & Matemática</a>
+        <a class="toc-btn" href="#so">03 · Sistemas Operacionais</a>
+        <a class="toc-btn" href="#redes">04 · Redes</a>
+        <a class="toc-btn" href="#bd">05 · Banco de Dados</a>
+        <a class="toc-btn" href="#paradigmas">06 · Paradigmas</a>
+        <a class="toc-btn" href="#complexidade">07 · Complexidade</a>
+        <a class="toc-btn" href="#testes">08 · Testes</a>
+        <a class="toc-btn" href="#cleancode">09 · Clean Code</a>
+        <a class="toc-btn" href="#git">10 · Git</a>
+        <a class="toc-btn" href="#seguranca">11 · Segurança</a>
+        <a class="toc-btn" href="#arquitetura">12 · Arquitetura</a>
+      </nav>
+    </header>
+
+    <!-- 02 LÓGICA & MATEMÁTICA -->
+    <section class="section" id="logica">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-base">Base teórica</span>
+          <h2>Lógica & Matemática</h2>
+        </div>
+      </div>
+      <p class="section-desc">Não é preciso ser matemático, mas alguns fundamentos são indispensáveis. A boa notícia:
+        você aprende o que precisa enquanto programa, não em abstrato.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Lógica proposicional e booleana</h3>
+            <p>E, OU, NÃO, XOR. Tabelas-verdade. Leis de De Morgan. São a base de toda condicional e toda estrutura de
+              controle que você escreve. Também essenciais para entender operações bit a bit.</p>
+            <div class="tags"><span class="tag">Boolean algebra</span><span class="tag">Bitwise ops</span><span
+                class="tag">De Morgan</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Matemática discreta</h3>
+            <p>Conjuntos, relações, combinatória, indução matemática. Aplicada diretamente em análise de algoritmos,
+              criptografia e banco de dados relacional. É a matemática da computação.</p>
+            <div class="tags"><span class="tag">Conjuntos</span><span class="tag">Combinatória</span><span
+                class="tag">Indução</span><span class="tag">Permutações</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Teoria dos grafos</h3>
+            <p>Vértices, arestas, grau, conectividade, planaridade. O modelo matemático que está por trás de redes
+              sociais, sistemas de rotas, compiladores e banco de dados relacionais.</p>
+            <div class="tags"><span class="tag">Grafos</span><span class="tag">Árvores</span><span
+                class="tag">Fluxo</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Probabilidade e estatística básica</h3>
+            <p>Média, mediana, desvio padrão, distribuições. Imprescindível se você for trabalhar com dados, machine
+              learning ou até análise de performance de sistemas. Também essencial para entender testes A/B.</p>
+            <div class="tags"><span class="tag hot">🔥 Estatística</span><span class="tag">Distribuições</span><span
+                class="tag">Bayes</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Álgebra linear (se for para dados/IA)</h3>
+            <p>Vetores, matrizes e transformações. Só aprofunde se seu caminho for machine learning, visão computacional
+              ou computação gráfica. Caso contrário, noções básicas bastam.</p>
+            <div class="tags"><span class="tag">Matrizes</span><span class="tag">Vetores</span><span class="tag">Produto
+                interno</span><span class="tag">Eigenvalues</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Matemática Discreta e suas Aplicações</h4>
+          <p>Kenneth Rosen — referência padrão em cursos de graduação. Cobertura completa e rigorosa.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro acessível</p>
+          <h4>Concrete Mathematics</h4>
+          <p>Graham, Knuth & Patashnik — mais avançado, mas extremamente revelador para quem quer ir fundo.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>Mathematics for CS — MIT OpenCourseWare</h4>
+          <p>Gratuito. Cobre lógica, provas, grafos, probabilidade. Excelente para quem está na graduação.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Plataforma</p>
+          <h4>Khan Academy — Matemática Discreta</h4>
+          <p>Ótimo ponto de partida se você precisa reforçar conceitos básicos de forma progressiva e gratuita.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 03 SISTEMAS OPERACIONAIS -->
+    <section class="section" id="so">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-base">Base teórica</span>
+          <h2>Sistemas Operacionais</h2>
+        </div>
+      </div>
+      <p class="section-desc">Entender o que acontece "abaixo" do seu código é o que te permite escrever software
+        eficiente, fazer debug de problemas difíceis e conversar com engenheiros de infraestrutura.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Processos e threads</h3>
+            <p>A diferença entre processo e thread, o ciclo de vida de um processo, escalonamento de CPU. Fundamental
+              para entender performance, paralelismo e por que seu servidor trava com N conexões simultâneas.</p>
+            <div class="tags"><span class="tag hot">🔥 Threads</span><span class="tag">Scheduling</span><span
+                class="tag">Context switch</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Concorrência e sincronização</h3>
+            <p>Race conditions, deadlocks, mutexes e semáforos. Se você escreve qualquer código assíncrono ou
+              multi-threaded, esses conceitos são essenciais para não criar bugs impossíveis de reproduzir.</p>
+            <div class="tags"><span class="tag hot">🔥 Mutex / Lock</span><span class="tag">Deadlock</span><span
+                class="tag">Semaphore</span><span class="tag">Race condition</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Gerenciamento de memória</h3>
+            <p>Stack vs. heap, alocação dinâmica, paginação e memória virtual. Entender por que um processo consome mais
+              memória do que deveria começa aqui. Garbage collectors e memory leaks fazem sentido depois desse estudo.
+            </p>
+            <div class="tags"><span class="tag">Heap / Stack</span><span class="tag">Paginação</span><span
+                class="tag">Virtual memory</span><span class="tag">GC</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Sistema de arquivos e I/O</h3>
+            <p>Como arquivos são organizados em disco, buffering de I/O, chamadas de sistema (syscalls). Essencial para
+              quem trabalha com processamento de dados, logs ou qualquer coisa que leia/escreva em disco com frequência.
+            </p>
+            <div class="tags"><span class="tag">Filesystem</span><span class="tag">Syscalls</span><span
+                class="tag">Buffering</span><span class="tag">inode</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Linux e linha de comando</h3>
+            <p>Praticamente todo servidor roda Linux. Saber navegar no terminal, usar pipes, permissões, processos em
+              background e variáveis de ambiente é habilidade esperada de qualquer dev backend ou DevOps.</p>
+            <div class="tags"><span class="tag hot">🔥 Linux CLI</span><span class="tag">bash/zsh</span><span
+                class="tag">chmod</span><span class="tag">ps / top</span><span class="tag">grep / awk</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro clássico</p>
+          <h4>Operating Systems: Three Easy Pieces</h4>
+          <p>Arpaci-Dusseau — gratuito online, didático e com ótimos exercícios práticos. O melhor do gênero.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Prática no Linux</p>
+          <h4>The Linux Command Line</h4>
+          <p>William Shotts — gratuito online. Cobre shell scripting, processos, permissões e muito mais.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>CS 162 — Operating Systems (Berkeley)</h4>
+          <p>Disponível no YouTube. Um dos melhores cursos universitários abertos sobre o tema.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Prática</p>
+          <h4>OverTheWire: Bandit (wargame)</h4>
+          <p>Jogo de terminal que ensina Linux de forma progressiva e divertida. Altamente recomendado.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 04 REDES -->
+    <section class="section" id="redes">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-pratica">Habilidade prática</span>
+          <h2>Redes de Computadores</h2>
+        </div>
+      </div>
+      <p class="section-desc">Todo software moderno é distribuído. Entender como dados trafegam pela rede é
+        indispensável para qualquer dev que constrói APIs, trabalha com microsserviços ou faz debug de latência.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Modelo OSI e TCP/IP</h3>
+            <p>As camadas da comunicação em rede. Você não precisa memorizar todas as 7 camadas do OSI, mas entender as
+              camadas de transporte, rede e aplicação é essencial para qualquer dev que trabalha com APIs e servidores.
+            </p>
+            <div class="tags"><span class="tag">TCP/IP</span><span class="tag">UDP</span><span class="tag">Modelo
+                OSI</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>HTTP/HTTPS e REST</h3>
+            <p>Como a web funciona: métodos (GET, POST, PUT, DELETE), cabeçalhos, status codes, cookies, sessões.
+              TLS/SSL e por que HTTPS importa. REST é o estilo arquitetural mais cobrado no mercado para APIs.</p>
+            <div class="tags"><span class="tag hot">🔥 HTTP/HTTPS</span><span class="tag hot">🔥 REST</span><span
+                class="tag">Status codes</span><span class="tag">Headers</span><span class="tag">TLS</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>DNS, IP e roteamento</h3>
+            <p>Como um domínio vira um IP, o que é um resolver, TTL e propagação de DNS. Saber isso evita horas de debug
+              em problemas de infraestrutura que parecem mágica negra para quem não conhece o mecanismo.</p>
+            <div class="tags"><span class="tag">DNS</span><span class="tag">IP / Subnet</span><span
+                class="tag">Roteamento</span><span class="tag">CDN</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>WebSockets e comunicação em tempo real</h3>
+            <p>Quando HTTP não é suficiente: conexões persistentes, Server-Sent Events e WebSockets. Cobrado em projetos
+              de chat, dashboards em tempo real, jogos online e notificações push.</p>
+            <div class="tags"><span class="tag hot">🔥 WebSocket</span><span class="tag">SSE</span><span
+                class="tag">Long polling</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>gRPC e GraphQL</h3>
+            <p>Alternativas ao REST em cenários específicos. gRPC é amplamente usado em comunicação entre microsserviços
+              (Google, Netflix). GraphQL é popular em APIs de frontend (GitHub, Shopify, Meta).</p>
+            <div class="tags"><span class="tag hot">🔥 gRPC</span><span class="tag hot">🔥 GraphQL</span><span
+                class="tag">Protobuf</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Computer Networking: A Top-Down Approach</h4>
+          <p>Kurose & Ross — o livro-texto mais adotado em universidades. Legível e progressivo.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Referência prática</p>
+          <h4>HTTP: The Definitive Guide</h4>
+          <p>Gourley & Totty — cobre HTTP em profundidade, perfeito para devs de aplicações web.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Ferramenta</p>
+          <h4>Wireshark + Postman</h4>
+          <p>Analise tráfego real com Wireshark. Teste e explore APIs com Postman ou Insomnia.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>The Bits and Bytes of Networking (Google/Coursera)</h4>
+          <p>Acessível, gratuito para auditar. Ótimo ponto de partida para quem tem pouca base em redes.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 05 BANCO DE DADOS -->
+    <section class="section" id="bd">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-pratica">Habilidade prática</span>
+          <h2>Banco de Dados</h2>
+        </div>
+      </div>
+      <p class="section-desc">Dados são o ativo mais valioso de qualquer sistema. Saber modelar, consultar e otimizar
+        bancos de dados é uma das habilidades mais cobradas no mercado — independente da stack.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>SQL fundamental</h3>
+            <p>SELECT, JOIN (inner, left, right, full), GROUP BY, HAVING, subconsultas, CTEs e window functions. SQL é a
+              habilidade de banco de dados mais cobrada em entrevistas, disparado. Pratique muito.</p>
+            <div class="tags"><span class="tag hot">🔥 SQL</span><span class="tag">JOINs</span><span
+                class="tag">CTEs</span><span class="tag">Window functions</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Modelagem relacional</h3>
+            <p>Entidades, atributos, relacionamentos e normalização (1NF, 2NF, 3NF). Um banco mal modelado é fonte de
+              problemas eternos. Aprenda a fazer um bom diagrama ER antes de criar qualquer tabela.</p>
+            <div class="tags"><span class="tag">Normalização</span><span class="tag">Diagrama ER</span><span
+                class="tag">Chave primária/estrangeira</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Índices e performance</h3>
+            <p>Como um índice funciona internamente (B-Tree), quando criar e quando evitar, e como usar EXPLAIN/ANALYZE
+              para diagnosticar queries lentas. Habilidade extremamente valorizada e raramente ensinada em cursos
+              básicos.</p>
+            <div class="tags"><span class="tag hot">🔥 Índices</span><span class="tag">EXPLAIN</span><span
+                class="tag">Query planning</span><span class="tag">B-Tree</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Transações e ACID</h3>
+            <p>Atomicidade, consistência, isolamento e durabilidade. Entender transações é fundamental para não perder
+              dados em casos de falha ou concorrência. Aprenda sobre níveis de isolamento e problemas como dirty reads.
+            </p>
+            <div class="tags"><span class="tag">ACID</span><span class="tag">Transações</span><span
+                class="tag">Isolation levels</span><span class="tag">Locks</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Bancos NoSQL</h3>
+            <p>Quando e por que usar bancos não-relacionais: MongoDB (documentos), Redis (cache e chave-valor),
+              Cassandra (alta escala), Elasticsearch (busca full-text). Não é "SQL vs. NoSQL" — é a ferramenta certa
+              para cada problema.</p>
+            <div class="tags"><span class="tag hot">🔥 Redis</span><span class="tag hot">🔥 MongoDB</span><span
+                class="tag">Elasticsearch</span><span class="tag">Cassandra</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Designing Data-Intensive Applications</h4>
+          <p>Martin Kleppmann — o melhor livro sobre bancos e sistemas de dados modernos. Leitura obrigatória para
+            seniors.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Tecnologias</p>
+          <h4>PostgreSQL + Redis</h4>
+          <p>PostgreSQL é o banco relacional open-source mais sofisticado. Redis é onipresente para cache. Domine os
+            dois.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Plataforma</p>
+          <h4>SQLZoo + Mode Analytics SQL</h4>
+          <p>Pratique SQL com exercícios progressivos e dados reais. Gratuitos e muito eficazes.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>CMU 15-445 Database Systems</h4>
+          <p>Andy Pavlo — aulas no YouTube. O curso universitário mais completo sobre internals de banco de dados.</p>
+        </div>
+      </div>
+      <div class="market-box">
+        <p class="label">📈 Mercado de trabalho</p>
+        <p>PostgreSQL e MySQL dominam os relacionais. Redis é quase universal para cache. MongoDB e Elasticsearch
+          aparecem em muitas vagas de backend. Saber escrever queries SQL complexas e otimizadas é diferencial imediato
+          em entrevistas.</p>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 06 PARADIGMAS -->
+    <section class="section" id="paradigmas">
+      <div class="section-header">
+        <span class="section-num">06</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-pratica">Habilidade prática</span>
+          <h2>Paradigmas de Programação</h2>
+        </div>
+      </div>
+      <p class="section-desc">Cada paradigma é uma forma diferente de pensar sobre problemas. Quem conhece mais de um
+        paradigma resolve problemas com mais ferramentas mentais disponíveis.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Orientação a Objetos (POO)</h3>
+            <p>Classes, objetos, herança, polimorfismo, encapsulamento. É o paradigma dominante em Java, Python, C# e
+              Kotlin. Aprenda seus princípios, mas também seus limites — abuso de herança é um dos erros mais comuns.
+            </p>
+            <div class="tags"><span class="tag hot">🔥 POO</span><span class="tag">Herança</span><span
+                class="tag">Polimorfismo</span><span class="tag">Encapsulamento</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Programação funcional</h3>
+            <p>Funções puras, imutabilidade, composição, map/filter/reduce. Presente em JavaScript moderno, Python,
+              Kotlin, Scala e Rust. Ajuda a escrever código mais previsível, testável e livre de efeitos colaterais.</p>
+            <div class="tags"><span class="tag hot">🔥 Funcional</span><span class="tag">Imutabilidade</span><span
+                class="tag">Higher-order functions</span><span class="tag">Closures</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Programação reativa e assíncrona</h3>
+            <p>Callbacks, Promises, async/await, Observables. Essencial para JavaScript/Node.js, Kotlin Coroutines e
+              qualquer sistema que lida com I/O intenso. É o que permite servidores atenderem milhares de conexões
+              simultâneas.</p>
+            <div class="tags"><span class="tag hot">🔥 Async/Await</span><span class="tag">Promises</span><span
+                class="tag">Observables</span><span class="tag">Event loop</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Design Patterns (GoF)</h3>
+            <p>Padrões clássicos como Singleton, Factory, Observer, Strategy, Repository. São soluções reutilizáveis
+              para problemas comuns de design. Entenda cada um pelo problema que resolve, não pela implementação
+              decorada.</p>
+            <div class="tags"><span class="tag">Design Patterns</span><span class="tag">Strategy</span><span
+                class="tag">Observer</span><span class="tag">Factory</span><span class="tag">Repository</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Design Patterns — Gang of Four</h4>
+          <p>Gamma, Helm, Johnson & Vlissides — o clássico. Leitura densa, mas referência permanente.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Leitura moderna</p>
+          <h4>Head First Design Patterns</h4>
+          <p>Freeman & Robson — abordagem visual e didática. Perfeito para quem está aprendendo os padrões pela primeira
+            vez.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>refactoring.guru</h4>
+          <p>Site gratuito com explicações e exemplos de todos os design patterns em múltiplas linguagens.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>Functional Programming Principles — Scala (Coursera)</h4>
+          <p>Martin Odersky (criador do Scala). Rigoroso e revelador mesmo para quem não vai usar Scala.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 07 COMPLEXIDADE -->
+    <section class="section" id="complexidade">
+      <div class="section-header">
+        <span class="section-num">07</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-boas">Boas práticas</span>
+          <h2>Complexidade de Algoritmos</h2>
+        </div>
+      </div>
+      <p class="section-desc">A habilidade de analisar "quão rápido" e "quanto memória" um algoritmo consome. Saber Big
+        O permite prever o comportamento do seu código antes de ele ir para produção com milhões de usuários.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Notação Big O, Ω e Θ</h3>
+            <p>O(1), O(log n), O(n), O(n log n), O(n²), O(2ⁿ). Aprenda a identificar a complexidade de um algoritmo
+              lendo o código — loops aninhados, recursão e chamadas de função trazem pistas claras.</p>
+            <div class="tags"><span class="tag hot">🔥 Big O</span><span class="tag">O(log n)</span><span
+                class="tag">O(n²)</span><span class="tag">Análise amortizada</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Complexidade de espaço</h3>
+            <p>Não é só velocidade — memória também tem custo. Recursão profunda usa pilha de chamada. Memoização troca
+              tempo por espaço. Entender esse tradeoff é fundamental para escolher a abordagem certa.</p>
+            <div class="tags"><span class="tag">Space complexity</span><span class="tag">Call stack</span><span
+                class="tag">Trade-offs</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Análise de algoritmos recursivos (Teorema Mestre)</h3>
+            <p>Como calcular a complexidade de algoritmos recursivos como MergeSort e QuickSort. O Teorema Mestre dá uma
+              fórmula direta para recorrências do tipo T(n) = aT(n/b) + f(n).</p>
+            <div class="tags"><span class="tag">Teorema mestre</span><span class="tag">Recursão</span><span
+                class="tag">Recorrências</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Benchmarking e profiling</h3>
+            <p>Teoria e prática precisam se encontrar. Use ferramentas de profiling (cProfile, async-profiler, perf)
+              para medir o que realmente está lento em produção. "Premature optimization is the root of all evil" — mas
+              otimize quando necessário.</p>
+            <div class="tags"><span class="tag hot">🔥 Profiling</span><span class="tag">Benchmarking</span><span
+                class="tag">Flame graphs</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Algorithm Design Manual</h4>
+          <p>Steven Skiena — excelente para desenvolver intuição sobre qual algoritmo usar em cada situação.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Ferramenta visual</p>
+          <h4>Big-O Cheat Sheet (bigocheatsheet.com)</h4>
+          <p>Referência visual rápida para complexidade de estruturas e algoritmos comuns. Salve nos favoritos.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Plataforma</p>
+          <h4>LeetCode + AlgoExpert</h4>
+          <p>A prática constante de problemas é a forma mais eficiente de internalizar análise de complexidade.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro avançado</p>
+          <h4>Programming Pearls</h4>
+          <p>Jon Bentley — ensina a pensar em problemas de performance com elegância. Um clássico atemporal.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 08 TESTES -->
+    <section class="section" id="testes">
+      <div class="section-header">
+        <span class="section-num">08</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-boas">Boas práticas</span>
+          <h2>Testes de Software</h2>
+        </div>
+      </div>
+      <p class="section-desc">Quem sabe testar bem entrega código com muito mais confiança e velocidade no longo prazo.
+        É uma habilidade raramente ensinada nas grades curriculares e extremamente valorizada em equipes maduras.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Testes unitários</h3>
+            <p>Testam uma única unidade de código isolada. Aprenda a escrever testes que são rápidos, determinísticos e
+              fáceis de ler. Princípio AAA: Arrange, Act, Assert. Ferramentas: JUnit (Java), pytest (Python), Jest (JS).
+            </p>
+            <div class="tags"><span class="tag hot">🔥 pytest</span><span class="tag hot">🔥 Jest</span><span
+                class="tag">JUnit</span><span class="tag">AAA pattern</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Mocks, stubs e fakes</h3>
+            <p>Como isolar dependências externas (banco de dados, APIs, serviços de e-mail) durante os testes. Entender
+              a diferença entre mock, stub e spy evita testes frágeis que quebram quando a implementação muda.</p>
+            <div class="tags"><span class="tag">Mocking</span><span class="tag">Test doubles</span><span
+                class="tag">Dependency injection</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>TDD — Test-Driven Development</h3>
+            <p>Escreva o teste antes do código: Red → Green → Refactor. TDD não é sobre ter 100% de cobertura; é sobre
+              usar testes para guiar o design. Muda profundamente como você estrutura código.</p>
+            <div class="tags"><span class="tag">TDD</span><span class="tag">Red-Green-Refactor</span><span
+                class="tag">BDD</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Testes de integração e E2E</h3>
+            <p>Testam a colaboração entre múltiplos componentes. Playwright e Cypress dominam testes E2E de frontend.
+              Testcontainers é referência para testes de integração com banco de dados real em containers.</p>
+            <div class="tags"><span class="tag hot">🔥 Playwright</span><span class="tag">Cypress</span><span
+                class="tag">Testcontainers</span><span class="tag">E2E</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Cobertura de código e qualidade</h3>
+            <p>Métricas como cobertura de linhas, branches e mutação. Não busque 100% — busque testar os caminhos
+              críticos e os casos de borda. Ferramentas: JaCoCo, Coverage.py, Istanbul.</p>
+            <div class="tags"><span class="tag">Code coverage</span><span class="tag">Mutation testing</span><span
+                class="tag">SonarQube</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro essencial</p>
+          <h4>Test-Driven Development by Example</h4>
+          <p>Kent Beck — o criador do TDD explica o método do zero. Curto, prático e transformador.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Unit Testing: Principles, Practices & Patterns</h4>
+          <p>Vladimir Khorikov — o livro mais completo e moderno sobre como escrever bons testes unitários.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Ferramentas</p>
+          <h4>pytest / Jest / JUnit 5</h4>
+          <p>Aprenda pelo menos um framework de testes da sua linguagem principal com profundidade.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>Testing Trophy — Kent C. Dodds</h4>
+          <p>Artigo que propõe uma alternativa moderna à pirâmide de testes. Leitura obrigatória para devs JS.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 09 CLEAN CODE -->
+    <section class="section" id="cleancode">
+      <div class="section-header">
+        <span class="section-num">09</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-boas">Boas práticas</span>
+          <h2>Clean Code & SOLID</h2>
+        </div>
+      </div>
+      <p class="section-desc">Código é lido muito mais vezes do que é escrito. Clareza, simplicidade e bom design são
+        habilidades que diferenciam devs bons de devs excepcionais — e que chefes e pares sempre percebem.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Nomes, funções e comentários</h3>
+            <p>Nomes que revelam intenção, funções que fazem uma coisa só, comentários que explicam o porquê (não o
+              quê). Parece simples — e transforma a manutenibilidade do código completamente.</p>
+            <div class="tags"><span class="tag">Naming</span><span class="tag">Single responsibility</span><span
+                class="tag">Self-documenting code</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Princípios SOLID</h3>
+            <p>Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion. São
+              princípios de design orientado a objetos que guiam estruturas mais flexíveis e menos frágeis. Aprenda cada
+              um com exemplos reais de violação.</p>
+            <div class="tags"><span class="tag hot">🔥 SOLID</span><span class="tag">SRP</span><span
+                class="tag">OCP</span><span class="tag">DIP</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Refatoração</h3>
+            <p>Melhorar o design do código sem mudar seu comportamento externo. Reconhecer code smells (código
+              duplicado, função longa, classe inchada) e aplicar os refactorings do catálogo de Fowler. Testes são o
+              pré-requisito da refatoração segura.</p>
+            <div class="tags"><span class="tag">Refactoring</span><span class="tag">Code smells</span><span
+                class="tag">DRY</span><span class="tag">YAGNI</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Code review e revisão de pares</h3>
+            <p>Receber e dar feedback construtivo sobre código é uma habilidade social e técnica. Aprenda a revisar
+              código com empatia, apontando problemas e sugerindo alternativas. Ferramentas: GitHub Pull Requests,
+              GitLab MR, Gerrit.</p>
+            <div class="tags"><span class="tag hot">🔥 Code review</span><span class="tag">Pull Requests</span><span
+                class="tag">Pair programming</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro clássico</p>
+          <h4>Clean Code</h4>
+          <p>Robert C. Martin — leitura obrigatória. Alguns exemplos estão datados, mas os princípios são atemporais.
+          </p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>Refactoring: Improving the Design of Existing Code</h4>
+          <p>Martin Fowler — o catálogo definitivo de técnicas de refatoração. Referência permanente.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Leitura complementar</p>
+          <h4>A Philosophy of Software Design</h4>
+          <p>John Ousterhout — visão alternativa e madura sobre design. Ótimo complemento ao Clean Code.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>sourcemaking.com / refactoring.guru</h4>
+          <p>Catálogos online de padrões, anti-padrões e refactorings com exemplos visuais. Gratuitos.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 10 GIT -->
+    <section class="section" id="git">
+      <div class="section-header">
+        <span class="section-num">10</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-prof">Perfil profissional</span>
+          <h2>Controle de Versão com Git</h2>
+        </div>
+      </div>
+      <p class="section-desc">Git é a ferramenta universal de colaboração em software. A maioria aprende só o básico —
+        dominar Git de verdade evita acidentes graves e facilita muito o trabalho em equipe.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Fundamentos: commits, branches e merges</h3>
+            <p>Commits atômicos e com mensagens claras, criação de branches para features, estratégias de merge.
+              Convenção de commits (Conventional Commits) está cada vez mais adotada para automação de changelogs e
+              semver.</p>
+            <div class="tags"><span class="tag hot">🔥 Git flow</span><span class="tag">Conventional commits</span><span
+                class="tag">Merge vs. rebase</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Rebase interativo e histórico limpo</h3>
+            <p>git rebase -i para reorganizar, squash e editar commits. Um histórico limpo é um presente para seus
+              colegas e para você mesmo no futuro. Entenda a diferença entre rebase e merge e quando usar cada um.</p>
+            <div class="tags"><span class="tag">Rebase interativo</span><span class="tag">Squash</span><span
+                class="tag">Cherry-pick</span><span class="tag">git bisect</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>GitHub / GitLab e Pull Requests</h3>
+            <p>Criar PRs descritivos, revisar código de pares, usar issues e milestones, configurar branch protection
+              rules. GitHub Actions para CI/CD básico. Essas plataformas são o ambiente de trabalho real de qualquer dev
+              hoje.</p>
+            <div class="tags"><span class="tag hot">🔥 GitHub Actions</span><span class="tag">CI/CD</span><span
+                class="tag">Branch protection</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Internals do Git (como funciona por dentro)</h3>
+            <p>Objetos blob, tree, commit e tag. SHA-1 e o modelo de conteúdo endereçado. Entender como o Git armazena
+              dados desmistifica completamente seus comandos e elimina o medo de usar operações "destrutivas".</p>
+            <div class="tags"><span class="tag">Git objects</span><span class="tag">DAG</span><span
+                class="tag">Reflog</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro gratuito</p>
+          <h4>Pro Git</h4>
+          <p>Scott Chacon & Ben Straub — o livro oficial do Git. Disponível gratuitamente em git-scm.com. Completo e
+            excelente.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎮 Prática interativa</p>
+          <h4>learngitbranching.js.org</h4>
+          <p>Aprenda Git visualmente com exercícios interativos. O melhor recurso para solidificar branching e rebase.
+          </p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>Oh My Git! (ohmygit.org)</h4>
+          <p>Jogo open-source para aprender Git de forma visual e lúdica. Excelente para iniciantes.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Configuração</p>
+          <h4>GitHub CLI (gh) + Git aliases</h4>
+          <p>Produtividade no terminal. Configure aliases para seus comandos mais usados e use gh para PRs sem sair do
+            terminal.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 11 SEGURANÇA -->
+    <section class="section" id="seguranca">
+      <div class="section-header">
+        <span class="section-num">11</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-prof">Perfil profissional</span>
+          <h2>Segurança de Software</h2>
+        </div>
+      </div>
+      <p class="section-desc">Segurança não é uma feature adicional — é uma responsabilidade de todo desenvolvedor.
+        Brechas clássicas existem há décadas porque devs não aprenderam a evitá-las.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>OWASP Top 10</h3>
+            <p>As 10 vulnerabilidades mais críticas de aplicações web: SQL Injection, XSS, CSRF, SSRF, Broken
+              Authentication, entre outras. Entender cada uma, como ocorre e como prevenir é conhecimento básico
+              esperado de todo dev backend e fullstack.</p>
+            <div class="tags"><span class="tag hot">🔥 OWASP Top 10</span><span class="tag">SQL Injection</span><span
+                class="tag">XSS</span><span class="tag">CSRF</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Autenticação e autorização</h3>
+            <p>JWT, OAuth 2.0, OpenID Connect. Diferença entre autenticação (quem é você?) e autorização (o que você
+              pode fazer?). Hashing seguro de senhas com bcrypt ou Argon2. Sessões vs. tokens stateless.</p>
+            <div class="tags"><span class="tag hot">🔥 JWT</span><span class="tag hot">🔥 OAuth 2.0</span><span
+                class="tag">bcrypt</span><span class="tag">RBAC</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Criptografia aplicada</h3>
+            <p>Não é necessário implementar algoritmos — mas entender quando usar criptografia simétrica (AES) vs.
+              assimétrica (RSA/ECC), o que é hashing (SHA-256) e como TLS protege conexões é fundamental para tomar
+              decisões corretas.</p>
+            <div class="tags"><span class="tag">TLS/SSL</span><span class="tag">AES</span><span class="tag">RSA /
+                ECC</span><span class="tag">Hashing</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Segurança em containers e cloud</h3>
+            <p>Segredos em variáveis de ambiente, IAM roles com least privilege, escaneamento de imagens Docker (Trivy,
+              Snyk), secrets managers (AWS Secrets Manager, HashiCorp Vault). Cada vez mais cobrado em vagas DevOps e
+              backend.</p>
+            <div class="tags"><span class="tag hot">🔥 Secrets management</span><span class="tag">IAM</span><span
+                class="tag">Trivy / Snyk</span><span class="tag">Vault</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>OWASP.org</h4>
+          <p>Documentação oficial das vulnerabilidades, cheat sheets e guias de prevenção. Recurso gratuito e
+            definitivo.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>The Web Application Hacker's Handbook</h4>
+          <p>Stuttard & Pinto — aprenda segurança do ponto de vista do atacante. Transforma a forma de pensar sobre
+            defesa.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Plataforma</p>
+          <h4>HackTheBox / TryHackMe</h4>
+          <p>Plataformas práticas de cybersecurity. Comece por TryHackMe (mais acessível) e avance para HackTheBox.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🎓 Curso</p>
+          <h4>CS 253 Web Security — Stanford</h4>
+          <p>Feross Aboukhadijeh. Aulas disponíveis no YouTube. Excelente cobertura de segurança web moderna.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- 12 ARQUITETURA -->
+    <section class="section" id="arquitetura">
+      <div class="section-header">
+        <span class="section-num">12</span>
+        <div class="section-title-group">
+          <span class="layer-tag layer-prof">Perfil profissional</span>
+          <h2>Arquitetura de Software</h2>
+        </div>
+      </div>
+      <p class="section-desc">Como sistemas são estruturados em alto nível. Esse conhecimento começa a ser exigido a
+        partir do nível pleno e é essencial para cargos sênior. Design de sistemas é um tema central em entrevistas de
+        grandes empresas.</p>
+
+      <div class="trail">
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Arquitetura em camadas e MVC</h3>
+            <p>O ponto de entrada: separação entre apresentação, lógica de negócio e dados. MVC, MVP, MVVM. Presente em
+              praticamente todo framework web (Rails, Spring, Django, Laravel). Entenda os princípios antes dos
+              frameworks.</p>
+            <div class="tags"><span class="tag hot">🔥 MVC</span><span class="tag">Layered architecture</span><span
+                class="tag">Separation of concerns</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>APIs RESTful e contratos</h3>
+            <p>Design de APIs versionadas, idempotência, paginação, filtros, documentação com OpenAPI/Swagger. Uma API
+              bem desenhada é um produto em si — facilita ou dificulta toda a integração com outros sistemas.</p>
+            <div class="tags"><span class="tag hot">🔥 OpenAPI / Swagger</span><span class="tag">REST best
+                practices</span><span class="tag">API versioning</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Microsserviços e arquitetura distribuída</h3>
+            <p>Decomposição por domínio, comunicação síncrona vs. assíncrona, service discovery, circuit breakers.
+              Ferramentas: Docker, Kubernetes, Kafka, RabbitMQ. É o modelo dominante em grandes sistemas — e traz
+              complexidade proporcional.</p>
+            <div class="tags"><span class="tag hot">🔥 Docker</span><span class="tag hot">🔥 Kubernetes</span><span
+                class="tag hot">🔥 Kafka</span><span class="tag">Circuit breaker</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>Cache, filas e mensageria</h3>
+            <p>Redis para cache, RabbitMQ e Kafka para mensageria assíncrona. Padrões como pub/sub, event-driven, CQRS e
+              event sourcing. Fundamentais para sistemas que precisam escalar horizontalmente.</p>
+            <div class="tags"><span class="tag hot">🔥 Redis cache</span><span class="tag">RabbitMQ</span><span
+                class="tag">CQRS</span><span class="tag">Event-driven</span></div>
+          </div>
+        </div>
+        <div class="trail-item">
+          <div class="trail-line">
+            <div class="trail-dot"></div>
+            <div class="trail-connector"></div>
+          </div>
+          <div class="trail-content">
+            <h3>System design — entrevistas e prática</h3>
+            <p>Como projetar sistemas como o Twitter, YouTube, WhatsApp ou Uber. Envolve tradeoffs entre consistência e
+              disponibilidade (CAP theorem), estimativas de capacidade, sharding, CDN e load balancers. Tema central em
+              entrevistas de nível sênior.</p>
+            <div class="tags"><span class="tag hot">🔥 System design</span><span class="tag">CAP theorem</span><span
+                class="tag">Sharding</span><span class="tag">Load balancer</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro essencial</p>
+          <h4>Designing Data-Intensive Applications</h4>
+          <p>Martin Kleppmann — o livro mais importante sobre sistemas distribuídos modernos. Obrigatório para
+            pleno/sênior.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">📚 Livro</p>
+          <h4>System Design Interview (Vol. 1 & 2)</h4>
+          <p>Alex Xu — guia direto ao ponto para entrevistas de design de sistemas. Muito usado para preparação.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🌐 Referência</p>
+          <h4>System Design Primer (GitHub)</h4>
+          <p>Donne Martin — repositório gratuito e extenso cobrindo todos os conceitos de design de sistemas. Estrele no
+            GitHub.</p>
+        </div>
+        <div class="resource-card">
+          <p class="resource-type">🛠️ Tecnologias</p>
+          <h4>Docker + Kubernetes + Kafka</h4>
+          <p>As três ferramentas mais cobradas em vagas de backend/platform engineering no mercado atual.</p>
+        </div>
+      </div>
+      <div class="market-box">
+        <p class="label">📈 Mercado de trabalho</p>
+        <p>System design é o tema central das entrevistas técnicas para cargos sênior e staff em qualquer empresa de
+          tecnologia de médio a grande porte. Docker e Kubernetes são exigidos em praticamente toda vaga backend
+          moderna. Kafka aparece em quase todas as vagas de sistemas de alta escala.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
