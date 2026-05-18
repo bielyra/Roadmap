@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Operacionais</title>
+    <link rel="stylesheet" href="../style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-btn">← Início</a>
+
+        <!-- 03 SISTEMAS OPERACIONAIS -->
+        <section class="section" id="so">
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <div class="section-title-group">
+                    <span class="layer-tag layer-base">Base teórica</span>
+                    <h2>Sistemas Operacionais</h2>
+                </div>
+            </div>
+            <p class="section-desc">Entender o que acontece "abaixo" do seu código é o que te permite escrever software
+                eficiente, fazer debug de problemas difíceis e conversar com engenheiros de infraestrutura.</p>
+
+            <div class="trail">
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Processos e threads</h3>
+                        <p>A diferença entre processo e thread, o ciclo de vida de um processo, escalonamento de CPU. Fundamental
+                            para entender performance, paralelismo e por que seu servidor trava com N conexões simultâneas.</p>
+                        <div class="tags"><span class="tag hot">🔥 Threads</span><span class="tag">Scheduling</span><span
+                                class="tag">Context switch</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Concorrência e sincronização</h3>
+                        <p>Race conditions, deadlocks, mutexes e semáforos. Se você escreve qualquer código assíncrono ou
+                            multi-threaded, esses conceitos são essenciais para não criar bugs impossíveis de reproduzir.</p>
+                        <div class="tags"><span class="tag hot">🔥 Mutex / Lock</span><span class="tag">Deadlock</span><span
+                                class="tag">Semaphore</span><span class="tag">Race condition</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Gerenciamento de memória</h3>
+                        <p>Stack vs. heap, alocação dinâmica, paginação e memória virtual. Entender por que um processo consome mais
+                            memória do que deveria começa aqui. Garbage collectors e memory leaks fazem sentido depois desse estudo.</p>
+                        <div class="tags"><span class="tag">Heap / Stack</span><span class="tag">Paginação</span><span
+                                class="tag">Virtual memory</span><span class="tag">GC</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Sistema de arquivos e I/O</h3>
+                        <p>Como arquivos são organizados em disco, buffering de I/O, chamadas de sistema (syscalls). Essencial para
+                            quem trabalha com processamento de dados, logs ou qualquer coisa que leia/escreva em disco com frequência.</p>
+                        <div class="tags"><span class="tag">Filesystem</span><span class="tag">Syscalls</span><span
+                                class="tag">Buffering</span><span class="tag">inode</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Linux e linha de comando</h3>
+                        <p>Praticamente todo servidor roda Linux. Saber navegar no terminal, usar pipes, permissões, processos em
+                            background e variáveis de ambiente é habilidade esperada de qualquer dev backend ou DevOps.</p>
+                        <div class="tags"><span class="tag hot">🔥 Linux CLI</span><span class="tag">bash/zsh</span><span
+                                class="tag">chmod</span><span class="tag">ps / top</span><span class="tag">grep / awk</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro clássico</p>
+                    <h4>Operating Systems: Three Easy Pieces</h4>
+                    <p>Arpaci-Dusseau — gratuito online, didático e com ótimos exercícios práticos. O melhor do gênero.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">📚 Prática no Linux</p>
+                    <h4>The Linux Command Line</h4>
+                    <p>William Shotts — gratuito online. Cobre shell scripting, processos, permissões e muito mais.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Curso</p>
+                    <h4>CS 162 — Operating Systems (Berkeley)</h4>
+                    <p>Disponível no YouTube. Um dos melhores cursos universitários abertos sobre o tema.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🛠️ Prática</p>
+                    <h4>OverTheWire: Bandit (wargame)</h4>
+                    <p>Jogo de terminal que ensina Linux de forma progressiva e divertida. Altamente recomendado.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+        </footer>
+    </div>
+</body>
+
+</html>

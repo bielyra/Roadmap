@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitetura de Software</title>
+    <link rel="stylesheet" href="../style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-btn">← Início</a>
+
+        <!-- 12 ARQUITETURA -->
+        <section class="section" id="arquitetura">
+            <div class="section-header">
+                <span class="section-num">12</span>
+                <div class="section-title-group">
+                    <span class="layer-tag layer-prof">Perfil profissional</span>
+                    <h2>Arquitetura de Software</h2>
+                </div>
+            </div>
+            <p class="section-desc">Como sistemas são estruturados em alto nível. Esse conhecimento começa a ser exigido a
+                partir do nível pleno e é essencial para cargos sênior. Design de sistemas é um tema central em entrevistas de
+                grandes empresas.</p>
+
+            <div class="trail">
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Arquitetura em camadas e MVC</h3>
+                        <p>O ponto de entrada: separação entre apresentação, lógica de negócio e dados. MVC, MVP, MVVM. Presente em
+                            praticamente todo framework web (Rails, Spring, Django, Laravel). Entenda os princípios antes dos frameworks.</p>
+                        <div class="tags"><span class="tag hot">🔥 MVC</span><span class="tag">Layered architecture</span><span
+                                class="tag">Separation of concerns</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>APIs RESTful e contratos</h3>
+                        <p>Design de APIs versionadas, idempotência, paginação, filtros, documentação com OpenAPI/Swagger. Uma API
+                            bem desenhada é um produto em si — facilita ou dificulta toda a integração com outros sistemas.</p>
+                        <div class="tags"><span class="tag hot">🔥 OpenAPI / Swagger</span><span class="tag">REST best
+                                practices</span><span class="tag">API versioning</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Microsserviços e arquitetura distribuída</h3>
+                        <p>Decomposição por domínio, comunicação síncrona vs. assíncrona, service discovery, circuit breakers.
+                            Ferramentas: Docker, Kubernetes, Kafka, RabbitMQ. É o modelo dominante em grandes sistemas — e traz
+                            complexidade proporcional.</p>
+                        <div class="tags"><span class="tag hot">🔥 Docker</span><span class="tag hot">🔥 Kubernetes</span><span
+                                class="tag hot">🔥 Kafka</span><span class="tag">Circuit breaker</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Cache, filas e mensageria</h3>
+                        <p>Redis para cache, RabbitMQ e Kafka para mensageria assíncrona. Padrões como pub/sub, event-driven, CQRS e
+                            event sourcing. Fundamentais para sistemas que precisam escalar horizontalmente.</p>
+                        <div class="tags"><span class="tag hot">🔥 Redis cache</span><span class="tag">RabbitMQ</span><span
+                                class="tag">CQRS</span><span class="tag">Event-driven</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>System design — entrevistas e prática</h3>
+                        <p>Como projetar sistemas como o Twitter, YouTube, WhatsApp ou Uber. Envolve tradeoffs entre consistência e
+                            disponibilidade (CAP theorem), estimativas de capacidade, sharding, CDN e load balancers. Tema central em
+                            entrevistas de nível sênior.</p>
+                        <div class="tags"><span class="tag hot">🔥 System design</span><span class="tag">CAP theorem</span><span
+                                class="tag">Sharding</span><span class="tag">Load balancer</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro essencial</p>
+                    <h4>Designing Data-Intensive Applications</h4>
+                    <p>Martin Kleppmann — o livro mais importante sobre sistemas distribuídos modernos. Obrigatório para pleno/sênior.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro</p>
+                    <h4>System Design Interview (Vol. 1 & 2)</h4>
+                    <p>Alex Xu — guia direto ao ponto para entrevistas de design de sistemas. Muito usado para preparação.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🌐 Referência</p>
+                    <h4>System Design Primer (GitHub)</h4>
+                    <p>Donne Martin — repositório gratuito e extenso cobrindo todos os conceitos de design de sistemas. Estrele no GitHub.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🛠️ Tecnologias</p>
+                    <h4>Docker + Kubernetes + Kafka</h4>
+                    <p>As três ferramentas mais cobradas em vagas de backend/platform engineering no mercado atual.</p>
+                </div>
+            </div>
+            <div class="market-box">
+                <p class="label">📈 Mercado de trabalho</p>
+                <p>System design é o tema central das entrevistas técnicas para cargos sênior e staff em qualquer empresa de
+                    tecnologia de médio a grande porte. Docker e Kubernetes são exigidos em praticamente toda vaga backend
+                    moderna. Kafka aparece em quase todas as vagas de sistemas de alta escala.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+        </footer>
+    </div>
+</body>
+
+</html>

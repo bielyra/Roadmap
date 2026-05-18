@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha de Fundamentos — Ciência da Computação</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <p class="eyebrow">Guia de estudos · Ciência da Computação</p>
+      <h1>Trilha de <span>Fundamentos</span></h1>
+      <p class="subtitle">Uma referência progressiva de tópicos, livros, cursos e tecnologias cobradas no mercado — do
+        iniciante ao profissional.</p>
+      <nav class="toc">
+        <a class="toc-btn" href="./nav/algoritmos.html">01 · Algoritmos</a>
+        <a class="toc-btn" href="./nav/logica.html">02 · Lógica & Matemática</a>
+        <a class="toc-btn" href="./nav/so.html">03 · Sistemas Operacionais</a>
+        <a class="toc-btn" href="./nav/redes.html">04 · Redes</a>
+        <a class="toc-btn" href="./nav/bd.html">05 · Banco de Dados</a>
+        <a class="toc-btn" href="./nav/paradigmas.html">06 · Paradigmas</a>
+        <a class="toc-btn" href="./nav/complexidade.html">07 · Complexidade</a>
+        <a class="toc-btn" href="./nav/testes.html">08 · Testes</a>
+        <a class="toc-btn" href="./nav/cleancode.html">09 · Clean Code</a>
+        <a class="toc-btn" href="./nav/git.html">10 · Git</a>
+        <a class="toc-btn" href="./nav/seguranca.html">11 · Segurança</a>
+        <a class="toc-btn" href="./nav/arquitetura.html">12 · Arquitetura</a>
+      </nav>
+    </header>
+
+    <!-- SOBRE O PROJETO -->
+    <div class="about-section">
+
+      <h2>Sobre o projeto</h2>
+      <p>Projeto pessoal de estudo e revisão dos fundamentos da Ciência da Computação, construído como uma página web
+        interativa de referência progressiva.</p>
+
+      <hr class="about-divider">
+
+      <h2>Motivação</h2>
+      <ul class="motivation-list">
+        <li><strong>Consolidar o conhecimento adquirido</strong> na universidade e no estágio, identificando e suprindo
+          lacunas na base técnica.</li>
+        <li><strong>Servir como trilha de estudos</strong> para revisão contínua dos fundamentos — útil tanto para o
+          estágio atual quanto para a preparação ao mercado de trabalho privado e/ou concursos públicos na área de TI.
+        </li>
+        <li><strong>Praticar desenvolvimento front-end</strong> de forma progressiva: iniciando com HTML e CSS puros,
+          com planos futuros de incorporar JavaScript e possivelmente um framework para animações e interatividade.</li>
+      </ul>
+
+      <hr class="about-divider">
+
+      <h2>Tecnologias utilizadas</h2>
+      <table class="tech-table">
+        <thead>
+          <tr>
+            <th>Tecnologia</th>
+            <th>Uso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>Estrutura das páginas</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>Estilização e layout</td>
+          </tr>
+          <tr>
+            <td>Google Fonts</td>
+            <td>Tipografia (Syne, JetBrains Mono, Lora)</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td class="planned">Planejado</td>
+          </tr>
+          <tr>
+            <td>Framework</td>
+            <td class="planned">Planejado — animações e interatividade</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr class="about-divider">
+
+      <h2>Estrutura de arquivos</h2>
+      <div class="file-tree">
+        Roadmap/<br>
+        ├── index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># Página
+          principal</span><br>
+        ├── style.css &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># Folha de
+          estilos global</span><br>
+        └── nav/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+          class="comment"># Módulos da trilha</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── algoritmos.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── logica.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── so.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── redes.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── bd.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── paradigmas.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── complexidade.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── testes.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── cleancode.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── git.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├── seguranca.html<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;└── arquitetura.html
+      </div>
+
+      <hr class="about-divider">
+
+      <h2>Etapas do projeto</h2>
+
+      <p class="checklist-group-title">Estrutura e base</p>
+      <ul class="checklist">
+        <li class="done">Configuração inicial do repositório</li>
+        <li class="done">Página principal com índice de módulos</li>
+        <li class="done">Folha de estilos global</li>
+        <li class="done">Subpáginas para cada módulo da trilha</li>
+        <li>Responsividade completa para mobile</li>
+      </ul>
+
+      <p class="checklist-group-title">Módulos de conteúdo</p>
+      <ul class="checklist">
+        <li class="done">01 · Algoritmos e Estruturas de Dados</li>
+        <li class="done">02 · Lógica & Matemática Discreta</li>
+        <li class="done">03 · Sistemas Operacionais</li>
+        <li class="done">04 · Redes de Computadores</li>
+        <li class="done">05 · Banco de Dados</li>
+        <li class="done">06 · Paradigmas de Programação</li>
+        <li class="done">07 · Complexidade Computacional</li>
+        <li class="done">08 · Testes de Software</li>
+        <li class="done">09 · Clean Code & SOLID</li>
+        <li class="done">10 · Controle de Versão com Git</li>
+        <li class="done">11 · Segurança de Software</li>
+        <li class="done">12 · Arquitetura de Software</li>
+      </ul>
+
+      <p class="checklist-group-title">Evoluções planejadas</p>
+      <ul class="checklist">
+        <li>JavaScript para interatividade</li>
+        <li>Animações e transições de página</li>
+        <li>Sistema de progresso/checklist persistente (localStorage)</li>
+        <li>Modo escuro / claro</li>
+        <li>Deploy (GitHub Pages ou similar)</li>
+      </ul>
+
+    </div>
+
+    <footer>
+      <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>

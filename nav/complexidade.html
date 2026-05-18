@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complexidade de Algoritmos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-btn">← Início</a>
+
+        <!-- 07 COMPLEXIDADE -->
+        <section class="section" id="complexidade">
+            <div class="section-header">
+                <span class="section-num">07</span>
+                <div class="section-title-group">
+                    <span class="layer-tag layer-boas">Boas práticas</span>
+                    <h2>Complexidade de Algoritmos</h2>
+                </div>
+            </div>
+            <p class="section-desc">A habilidade de analisar "quão rápido" e "quanto memória" um algoritmo consome. Saber Big
+                O permite prever o comportamento do seu código antes de ele ir para produção com milhões de usuários.</p>
+
+            <div class="trail">
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Notação Big O, Ω e Θ</h3>
+                        <p>O(1), O(log n), O(n), O(n log n), O(n²), O(2ⁿ). Aprenda a identificar a complexidade de um algoritmo
+                            lendo o código — loops aninhados, recursão e chamadas de função trazem pistas claras.</p>
+                        <div class="tags"><span class="tag hot">🔥 Big O</span><span class="tag">O(log n)</span><span
+                                class="tag">O(n²)</span><span class="tag">Análise amortizada</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Complexidade de espaço</h3>
+                        <p>Não é só velocidade — memória também tem custo. Recursão profunda usa pilha de chamada. Memoização troca
+                            tempo por espaço. Entender esse tradeoff é fundamental para escolher a abordagem certa.</p>
+                        <div class="tags"><span class="tag">Space complexity</span><span class="tag">Call stack</span><span
+                                class="tag">Trade-offs</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Análise de algoritmos recursivos (Teorema Mestre)</h3>
+                        <p>Como calcular a complexidade de algoritmos recursivos como MergeSort e QuickSort. O Teorema Mestre dá uma
+                            fórmula direta para recorrências do tipo T(n) = aT(n/b) + f(n).</p>
+                        <div class="tags"><span class="tag">Teorema mestre</span><span class="tag">Recursão</span><span
+                                class="tag">Recorrências</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Benchmarking e profiling</h3>
+                        <p>Teoria e prática precisam se encontrar. Use ferramentas de profiling (cProfile, async-profiler, perf)
+                            para medir o que realmente está lento em produção. "Premature optimization is the root of all evil" — mas
+                            otimize quando necessário.</p>
+                        <div class="tags"><span class="tag hot">🔥 Profiling</span><span class="tag">Benchmarking</span><span
+                                class="tag">Flame graphs</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro</p>
+                    <h4>Algorithm Design Manual</h4>
+                    <p>Steven Skiena — excelente para desenvolver intuição sobre qual algoritmo usar em cada situação.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🌐 Ferramenta visual</p>
+                    <h4>Big-O Cheat Sheet (bigocheatsheet.com)</h4>
+                    <p>Referência visual rápida para complexidade de estruturas e algoritmos comuns. Salve nos favoritos.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Plataforma</p>
+                    <h4>LeetCode + AlgoExpert</h4>
+                    <p>A prática constante de problemas é a forma mais eficiente de internalizar análise de complexidade.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro avançado</p>
+                    <h4>Programming Pearls</h4>
+                    <p>Jon Bentley — ensina a pensar em problemas de performance com elegância. Um clássico atemporal.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+        </footer>
+    </div>
+</body>
+
+</html>

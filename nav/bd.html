@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="../style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-btn">← Início</a>
+
+        <!-- 05 BANCO DE DADOS -->
+        <section class="section" id="bd">
+            <div class="section-header">
+                <span class="section-num">05</span>
+                <div class="section-title-group">
+                    <span class="layer-tag layer-pratica">Habilidade prática</span>
+                    <h2>Banco de Dados</h2>
+                </div>
+            </div>
+            <p class="section-desc">Dados são o ativo mais valioso de qualquer sistema. Saber modelar, consultar e otimizar
+                bancos de dados é uma das habilidades mais cobradas no mercado — independente da stack.</p>
+
+            <div class="trail">
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>SQL fundamental</h3>
+                        <p>SELECT, JOIN (inner, left, right, full), GROUP BY, HAVING, subconsultas, CTEs e window functions. SQL é a
+                            habilidade de banco de dados mais cobrada em entrevistas, disparado. Pratique muito.</p>
+                        <div class="tags"><span class="tag hot">🔥 SQL</span><span class="tag">JOINs</span><span
+                                class="tag">CTEs</span><span class="tag">Window functions</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Modelagem relacional</h3>
+                        <p>Entidades, atributos, relacionamentos e normalização (1NF, 2NF, 3NF). Um banco mal modelado é fonte de
+                            problemas eternos. Aprenda a fazer um bom diagrama ER antes de criar qualquer tabela.</p>
+                        <div class="tags"><span class="tag">Normalização</span><span class="tag">Diagrama ER</span><span
+                                class="tag">Chave primária/estrangeira</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Índices e performance</h3>
+                        <p>Como um índice funciona internamente (B-Tree), quando criar e quando evitar, e como usar EXPLAIN/ANALYZE
+                            para diagnosticar queries lentas. Habilidade extremamente valorizada e raramente ensinada em cursos básicos.</p>
+                        <div class="tags"><span class="tag hot">🔥 Índices</span><span class="tag">EXPLAIN</span><span
+                                class="tag">Query planning</span><span class="tag">B-Tree</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Transações e ACID</h3>
+                        <p>Atomicidade, consistência, isolamento e durabilidade. Entender transações é fundamental para não perder
+                            dados em casos de falha ou concorrência. Aprenda sobre níveis de isolamento e problemas como dirty reads.</p>
+                        <div class="tags"><span class="tag">ACID</span><span class="tag">Transações</span><span
+                                class="tag">Isolation levels</span><span class="tag">Locks</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Bancos NoSQL</h3>
+                        <p>Quando e por que usar bancos não-relacionais: MongoDB (documentos), Redis (cache e chave-valor),
+                            Cassandra (alta escala), Elasticsearch (busca full-text). Não é "SQL vs. NoSQL" — é a ferramenta certa
+                            para cada problema.</p>
+                        <div class="tags"><span class="tag hot">🔥 Redis</span><span class="tag hot">🔥 MongoDB</span><span
+                                class="tag">Elasticsearch</span><span class="tag">Cassandra</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro</p>
+                    <h4>Designing Data-Intensive Applications</h4>
+                    <p>Martin Kleppmann — o melhor livro sobre bancos e sistemas de dados modernos. Leitura obrigatória para seniors.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🛠️ Tecnologias</p>
+                    <h4>PostgreSQL + Redis</h4>
+                    <p>PostgreSQL é o banco relacional open-source mais sofisticado. Redis é onipresente para cache. Domine os dois.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Plataforma</p>
+                    <h4>SQLZoo + Mode Analytics SQL</h4>
+                    <p>Pratique SQL com exercícios progressivos e dados reais. Gratuitos e muito eficazes.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Curso</p>
+                    <h4>CMU 15-445 Database Systems</h4>
+                    <p>Andy Pavlo — aulas no YouTube. O curso universitário mais completo sobre internals de banco de dados.</p>
+                </div>
+            </div>
+            <div class="market-box">
+                <p class="label">📈 Mercado de trabalho</p>
+                <p>PostgreSQL e MySQL dominam os relacionais. Redis é quase universal para cache. MongoDB e Elasticsearch
+                    aparecem em muitas vagas de backend. Saber escrever queries SQL complexas e otimizadas é diferencial imediato
+                    em entrevistas.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+        </footer>
+    </div>
+</body>
+
+</html>

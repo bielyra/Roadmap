@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança de Software</title>
+    <link rel="stylesheet" href="../style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-btn">← Início</a>
+
+        <!-- 11 SEGURANÇA -->
+        <section class="section" id="seguranca">
+            <div class="section-header">
+                <span class="section-num">11</span>
+                <div class="section-title-group">
+                    <span class="layer-tag layer-prof">Perfil profissional</span>
+                    <h2>Segurança de Software</h2>
+                </div>
+            </div>
+            <p class="section-desc">Segurança não é uma feature adicional — é uma responsabilidade de todo desenvolvedor.
+                Brechas clássicas existem há décadas porque devs não aprenderam a evitá-las.</p>
+
+            <div class="trail">
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>OWASP Top 10</h3>
+                        <p>As 10 vulnerabilidades mais críticas de aplicações web: SQL Injection, XSS, CSRF, SSRF, Broken
+                            Authentication, entre outras. Entender cada uma, como ocorre e como prevenir é conhecimento básico
+                            esperado de todo dev backend e fullstack.</p>
+                        <div class="tags"><span class="tag hot">🔥 OWASP Top 10</span><span class="tag">SQL Injection</span><span
+                                class="tag">XSS</span><span class="tag">CSRF</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Autenticação e autorização</h3>
+                        <p>JWT, OAuth 2.0, OpenID Connect. Diferença entre autenticação (quem é você?) e autorização (o que você
+                            pode fazer?). Hashing seguro de senhas com bcrypt ou Argon2. Sessões vs. tokens stateless.</p>
+                        <div class="tags"><span class="tag hot">🔥 JWT</span><span class="tag hot">🔥 OAuth 2.0</span><span
+                                class="tag">bcrypt</span><span class="tag">RBAC</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Criptografia aplicada</h3>
+                        <p>Não é necessário implementar algoritmos — mas entender quando usar criptografia simétrica (AES) vs.
+                            assimétrica (RSA/ECC), o que é hashing (SHA-256) e como TLS protege conexões é fundamental para tomar
+                            decisões corretas.</p>
+                        <div class="tags"><span class="tag">TLS/SSL</span><span class="tag">AES</span><span class="tag">RSA /
+                                ECC</span><span class="tag">Hashing</span></div>
+                    </div>
+                </div>
+                <div class="trail-item">
+                    <div class="trail-line">
+                        <div class="trail-dot"></div>
+                        <div class="trail-connector"></div>
+                    </div>
+                    <div class="trail-content">
+                        <h3>Segurança em containers e cloud</h3>
+                        <p>Segredos em variáveis de ambiente, IAM roles com least privilege, escaneamento de imagens Docker (Trivy,
+                            Snyk), secrets managers (AWS Secrets Manager, HashiCorp Vault). Cada vez mais cobrado em vagas DevOps e backend.</p>
+                        <div class="tags"><span class="tag hot">🔥 Secrets management</span><span class="tag">IAM</span><span
+                                class="tag">Trivy / Snyk</span><span class="tag">Vault</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <div class="resource-card">
+                    <p class="resource-type">🌐 Referência</p>
+                    <h4>OWASP.org</h4>
+                    <p>Documentação oficial das vulnerabilidades, cheat sheets e guias de prevenção. Recurso gratuito e definitivo.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">📚 Livro</p>
+                    <h4>The Web Application Hacker's Handbook</h4>
+                    <p>Stuttard & Pinto — aprenda segurança do ponto de vista do atacante. Transforma a forma de pensar sobre defesa.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Plataforma</p>
+                    <h4>HackTheBox / TryHackMe</h4>
+                    <p>Plataformas práticas de cybersecurity. Comece por TryHackMe (mais acessível) e avance para HackTheBox.</p>
+                </div>
+                <div class="resource-card">
+                    <p class="resource-type">🎓 Curso</p>
+                    <h4>CS 253 Web Security — Stanford</h4>
+                    <p>Feross Aboukhadijeh. Aulas disponíveis no YouTube. Excelente cobertura de segurança web moderna.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Trilha de Fundamentos — Ciência da Computação · Gerado com Claude</p>
+        </footer>
+    </div>
+</body>
+
+</html>
