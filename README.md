@@ -16,13 +16,13 @@ O projeto nasceu com três objetivos principais:
 
 > _Preencha conforme o projeto evoluir._
 
-| Tecnologia | Versão | Uso |
-|---|---|---|
-| HTML5 | — | Estrutura das páginas |
-| CSS3 | — | Estilização e layout |
-| Google Fonts | — | Tipografia (Syne, JetBrains Mono, Lora) |
-| JavaScript | — | _Planejado_ |
-| — (framework) | — | _Planejado — animações e interatividade_ |
+| Tecnologia | Uso |
+|---|---|
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização e layout |
+| Google Fonts | Tipografia (Syne, JetBrains Mono, Lora) |
+| JavaScript | _Planejado_ |
+| Framework | _Planejado — animações e interatividade_ |
 
 ---
 
@@ -54,17 +54,25 @@ O projeto nasceu com três objetivos principais:
 
 > _Documente aqui as convenções de código, organização de arquivos e padrões adotados._
 
-**Estrutura de arquivos atual:**
+## Estrutura de Arquivos
 
 ```
 Roadmap/
-├── cs_roadmap.html       # Página principal (índice da trilha)
-├── style.css             # Folha de estilos global
-└── nav/                  # Páginas de cada módulo da trilha
+├── index.html          # Página principal
+├── style.css           # Folha de estilos global
+└── nav/                # Módulos da trilha
     ├── algoritmos.html
     ├── logica.html
+    ├── so.html
     ├── redes.html
-    └── so.html
+    ├── bd.html
+    ├── paradigmas.html
+    ├── complexidade.html
+    ├── testes.html
+    ├── cleancode.html
+    ├── git.html
+    ├── seguranca.html
+    └── arquitetura.html
 ```
 
 ---
@@ -75,22 +83,27 @@ Roadmap/
 
 ### Estrutura e Base
 - [x] Configuração inicial do repositório
-- [x] Página principal com índice de módulos (`cs_roadmap.html`)
-- [x] Folha de estilos global (`style.css`)
+- [x] Página principal com índice de módulos
+- [x] Folha de estilos global
+- [x] Subpáginas para cada módulo da trilha
 - [ ] Responsividade completa para mobile
 
 ### Módulos de Conteúdo
-- [ ] 01 · Algoritmos e Estruturas de Dados
-- [ ] 02 · Lógica & Matemática Discreta
-- [ ] 03 · Sistemas Operacionais
-- [ ] 04 · Redes de Computadores
-- [ ] 05 · Banco de Dados
-- [ ] 06 · Paradigmas de Programação
-- [ ] 07 · Complexidade Computacional
-- [ ] 08 · Testes de Software
+- [x] 01 · Algoritmos e Estruturas de Dados
+- [x] 02 · Lógica & Matemática Discreta
+- [x] 03 · Sistemas Operacionais
+- [x] 04 · Redes de Computadores
+- [x] 05 · Banco de Dados
+- [x] 06 · Paradigmas de Programação
+- [x] 07 · Complexidade Computacional
+- [x] 08 · Testes de Software
+- [x] 09 · Clean Code & SOLID
+- [x] 10 · Controle de Versão com Git
+- [x] 11 · Segurança de Software
+- [x] 12 · Arquitetura de Software
 
 ### Evoluções Planejadas
-- [ ] Implementação de JavaScript para interatividade
+- [ ] JavaScript para interatividade
 - [ ] Animações e transições de página
 - [ ] Sistema de progresso/checklist persistente (localStorage)
 - [ ] Modo escuro / claro
