@@ -338,6 +338,13 @@ h2 {
   .resources { grid-template-columns: 1fr; }
 }
 
+/* Link wrapper de um card de recurso — neutraliza decoração padrão do <a> */
+.resource-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* Card individual de recurso */
 .resource-card {
   background: var(--surface);
